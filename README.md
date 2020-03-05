@@ -1,5 +1,7 @@
 # Aseprite-Chinese-Translate
 
+注意：此汉化只完成一小部分
+
 ## 汉化效果
 
 ![](img/截图_20200305_153626.png)
