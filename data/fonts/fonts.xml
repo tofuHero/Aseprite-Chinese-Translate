@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fonts>
+  <!-- Preset fonts that can be used by all themes -->
+
+  <font name="Arial" type="truetype" file="wqy-microhei.ttc"/>
+
+  <font name="Arial Unicode" type="truetype" file_win="wqy-microhei.ttc" file_mac="wqy-microhei.ttc"/>
+
+  <font name="Unicode Korean" type="truetype" file_win="wqy-microhei.ttc">
+    <fallback font="Arial Unicode"/>
+  </font>
+
+  <font name="Unicode Japanese" type="truetype" file_win="wqy-microhei.ttc" file_linux="wqy-microhei.ttc">
+    <fallback font="Unicode Korean"/>
+  </font>
+
+  <font name="Unicode" type="truetype" file_win="wqy-microhei.ttc" file_mac="wqy-microhei.ttc" file_linux="wqy-microhei.ttc">
+    <fallback font="Unicode Japanese" size="8"/>
+  </font>
+
+  <font name="Aseprite" type="truetype" file_win="wqy-microhei.ttc" file_mac="wqy-microhei.ttc" file_linux="wqy-microhei.ttc">
+    <fallback font="Unicode" size="8"/>
+  </font>
+
+  <font name="Aseprite Mini" type="truetype" file_win="wqy-microhei.ttc" file_mac="wqy-microhei.ttc" file_linux="wqy-microhei.ttc">
+    <fallback font="Unicode" size="6"/>
+  </font>
+
+</fonts>
